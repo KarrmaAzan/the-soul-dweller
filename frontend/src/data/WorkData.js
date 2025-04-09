@@ -16,7 +16,7 @@ export const Work = [
         description:"Fullstack Application built on a sleek, mobile-first music streaming app built for a single artist, allowing fans to explore songs, view dynamic play counts, and enjoy a smooth, immersive listening experience.",
         tags:["React, Vite, React Router, Styled Components,context, Node.js, Express, MongoDB,Material UI, Custom HTML5 audio with full playback controls, Cloudinary, authentication "],
         
-        demo:"https://karrmas-heart.onrender.com",
+        demo:"https://karrmas-heart.vercel.app/",
         github:"https://github.com/KarrmaAzan/Karrmas-Heart/tree/main"
         
     },
@@ -32,7 +32,7 @@ export const Work = [
     {
         id:4,
         name:"Overtown Insurance Agency",
-        description:"A cool looking Anime Database built using ReactJS and styledComponents.It has fullstack capabilites setup for all crud operations, but also makes calls from an anime api",
+        description:"A reponsive web app for an insurance agency. this app allows users to browse the selection of services as well as send a custom message for a quote via email with form & validation",
         tags:["react","styledComponents","react-router", "api", "axios", "context"],
         
         demo:"https://overtown-insurance.vercel.app/",
@@ -51,8 +51,8 @@ export const Work = [
     {
         id:6,
         name:"Anime Database",
-        description:"A reponsive web app for an insurance agency. this app allows users to browse the selection of services as well as send a custom message for a quote via email with form & validation",
-        tags:["react native","react-router","css"],
+        description:"A cool looking Anime Database built using ReactJS and styledComponents.It has fullstack capabilites setup for all crud operations, but also makes calls from an anime api",
+        tags:["react native","react-router","css, mui"],
         
         demo:"",
         github:"https://github.com/TheKarmicCoder/Anime-Database"
@@ -61,8 +61,8 @@ export const Work = [
     {
         id:7,
         name:"Netflix Clone (Redux)",
-        description:"Initial portfolio made with Reactjs and styled using tailwind css. This was also my first attempt in using threejs and react-three-fiber",
-        tags:["react","react-three-fiber","threejs", "tailwind"],
+        description:"my rendition at nextflix in this full stack application using the mern stack ,styled components, and redux",
+        tags:["react","mongodb", "express", "tailwind", "redux", "nodejs", "axios"],
         
         demo:"",
         github:"https://github.com/TheKarmicCoder/Netflix-clone"
