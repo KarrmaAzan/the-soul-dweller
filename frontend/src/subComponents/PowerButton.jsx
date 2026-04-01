@@ -43,7 +43,7 @@ const PowerButton = () => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate("/home")
+    navigate("/dashboard")
   };
 
   return (

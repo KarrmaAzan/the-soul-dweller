@@ -30,8 +30,8 @@ const StyledBackground = styled.div`
 `;
 
 const EnterButton = styled.button`
-  opacity: ${(props) => (props.visible ? "1" : "0")};
-  pointer-events: ${(props) => (props.visible ? "auto" : "none")};
+  opacity: ${(props) => (props.$visible ? "1" : "0")};
+  pointer-events: ${(props) => (props.$visible ? "auto" : "none")};
   background-size: cover;
   color: #fff;
   width: 150rem;
@@ -115,15 +115,15 @@ const LandingPage = () => {
   }, []);
 
   const handleEnterClick = () => {
-    navigate("/home");
+    navigate("/dashboard");
   };
 
   return (
     <div>
       <StyledBanner>
-        <EnterButton onClick={handleEnterClick} visible={showEnterButton}>
+        <EnterButton onClick={handleEnterClick} $visible={showEnterButton}>
           <LargeIcon />
-          <EnterText>Insert Key</EnterText>
+          <EnterText>Open Archive</EnterText>
         </EnterButton>
         <StyledBackground style={{ backgroundSize: `${backgroundSize}px` }} />
       </StyledBanner>
