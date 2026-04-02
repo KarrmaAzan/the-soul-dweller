@@ -20,7 +20,7 @@ export const IPData = [
     description:
       "Social platform concept built around personas, authenticity, and niche-based connection.",
     tags: ["App", "Social", "Product"],
-    route: "/projects",
+    route: "https://soul-link-omega.vercel.app",
   },
   {
     id: 3,
